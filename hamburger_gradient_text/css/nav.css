@@ -76,6 +76,12 @@
   transform: rotate(225deg);
 }
 
+li:hover {
+  background: linear-gradient(90deg, #faad1a, #3366b0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /*Show menu */
 .menu-wrap .toggler:checked ~ .menu {
   visibility: visible;
