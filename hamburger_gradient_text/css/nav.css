@@ -24,7 +24,7 @@
   width: 60px;
   height: 60px;
   padding: 1rem;
-  background: var(--primary-color);
+  background: var(--secundary-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -136,7 +136,7 @@ li:hover {
 .menu-wrap .menu > div > div > ul > li {
   list-style: none;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 3rem;
   padding: 1rem;
 }
 
