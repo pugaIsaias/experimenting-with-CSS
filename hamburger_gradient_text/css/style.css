@@ -1,7 +1,38 @@
 :root {
   --primary-color: rgba(13, 110, 130, 0.75);
-  --overlay-color: rgba(24, 39, 51, 0.85);
+  --secundary-color: #000;
+  --overlay-color: #000;
   --menu-speed: 0.75s;
+}
+
+@font-face {
+  font-family: "Gotham_Book";
+  src: local("Gotham Book"), local("Gotham_Book"), local("Gotham-Book"),
+    url("../fonts/Gotham-Book.otf"), format("opentype");
+}
+
+@font-face {
+  font-family: "Gotham_Light";
+  src: local("Gotham Light"), local("Gotham_Light"), local("Gotham-Light"),
+    url("../fonts/Gotham_Light.otf"), format("opentype");
+}
+
+@font-face {
+  font-family: "Gotham_Medium";
+  src: local("Gotham Medium"), local("Gotham_Medium"), local("Gotham-Medium"),
+    url("../fonts/Gotham_Medium.otf"), format("opentype");
+}
+
+h1 {
+  font-family: "Gotham_Light", sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Gotham_Medium", sans-serif;
 }
 
 * {
@@ -11,7 +42,7 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Gotham_Book", sans-serif;
   line-height: 1.4;
 }
 
@@ -60,7 +91,7 @@ body {
 .btn {
   display: inline-block;
   border: none;
-  background-color: var(--primary-color);
+  background-color: var(--secundary-color);
   color: #fff;
   padding: 0.75rem 1.5rem;
   margin-top: 1rem;
