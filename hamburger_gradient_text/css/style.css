@@ -1,5 +1,5 @@
 :root {
-  --primary-color: rgba(13, 110, 130, 0.75);
+  --primary-color: rgba(0, 0, 0, 0.95);
   --secundary-color: #000;
   --overlay-color: #000;
   --menu-speed: 0.75s;
@@ -42,7 +42,7 @@ h6 {
 }
 
 body {
-  font-family: "Gotham_Book", sans-serif;
+  font-family: "Gotham_Light", "Gotham_Book", sans-serif;
   line-height: 1.4;
 }
 
@@ -101,4 +101,72 @@ body {
 
 .btn:hover {
   opacity: 0.7;
+}
+
+/**Primary button with gradient*/
+
+.btn-primary:link {
+  text-decoration: none;
+}
+
+.btn-primary {
+  font-weight: bold;
+  background-image: linear-gradient(
+    to right,
+    #3366b0 0%,
+    #de4869 51%,
+    #3366b0 100%
+  );
+}
+
+.btn-primary {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #fff;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-primary:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+/**Secundary button with gradient*/
+
+.btn-secundary:link {
+  text-decoration: none;
+}
+
+.btn-secundary {
+  font-weight: bold;
+  background-image: linear-gradient(
+    to right,
+    #fed700 0%,
+    #de4869 51%,
+    #fed700 100%
+  );
+}
+
+.btn-secundary {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #fff;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-secundary:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
 }
